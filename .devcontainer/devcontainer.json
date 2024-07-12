@@ -1,0 +1,29 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/prulloac/devcontainer-features/ollama:1": {
+      "pull":"llama3,mxbai-embed-large"
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+      "version":"latest"
+    },
+    "ghcr.io/akhildevelops/devcontainer-features/pip:0": {
+        "PACKAGES":"llama-index"
+    },
+    "ghcr.io/akhildevelops/devcontainer-features/pip:0": {
+        "PACKAGES":"llama-index"
+    },
+    "ghcr.io/akhildevelops/devcontainer-features/pip:0": {
+        "PACKAGES":"llama-index-vector-stores-qdrant"
+    },
+    "ghcr.io/akhildevelops/devcontainer-features/pip:0": {
+        "PACKAGES":"llama-index-readers-file"
+    },
+    "ghcr.io/akhildevelops/devcontainer-features/pip:0": {
+        "PACKAGES":"llama-index-embeddings-ollama"
+    },
+    "ghcr.io/akhildevelops/devcontainer-features/pip:0": {
+        "PACKAGES":"qdrant-client"
+    }
+  }
+}
