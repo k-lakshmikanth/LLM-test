@@ -3,14 +3,6 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/prulloac/devcontainer-features/ollama:1": {},
-    "ghcr.io/devcontainers/features/python:1": {
-      "version":"latest"
-    },
-    "ghcr.io/devcontainers-contrib/features/bash-command:1": {
-      "command":"pip install llama-index llama-index-llms-ollama llama-index-vector-stores-qdrant llama-index-readers-file llama-index-embeddings-ollama qdrant-client"
-    },
-    "ghcr.io/devcontainers-contrib/features/bash-command:1": {
-      "command":"ollama pull llama3 && ollama pull mxbai-embed-large"
-    }
+    "ghcr.io/devcontainers/features/python:1": {"version":"latest"}
   }
 }
