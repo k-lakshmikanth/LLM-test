@@ -5,5 +5,5 @@
     "ghcr.io/prulloac/devcontainer-features/ollama:1": {},
     "ghcr.io/devcontainers/features/python:1": {"version":"latest"}
   },
-  "postStartCommand": "bash ./setup.sh"
+  "postStartCommand": "bash setup.sh"
 }
