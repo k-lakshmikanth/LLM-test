@@ -3,7 +3,7 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/prulloac/devcontainer-features/ollama:1": {},
-    "ghcr.io/devcontainers/features/python:1": {"version":"latest"}
+    "ghcr.io/devcontainers/features/python:1": {"version":"3.12"}
   },
   "postStartCommand": "bash setup.sh"
 }
